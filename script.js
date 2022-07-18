@@ -1,6 +1,6 @@
-const hoursHand = document.querySelector(".hand.seconds");
-const minutesHand = document.querySelector(".hand.seconds");
 const secondsHand = document.querySelector(".hand.seconds");
+const minutesHand = document.querySelector(".hand.minutes");
+const hoursHand = document.querySelector(".hand.hours");
 
 const setRotation = (element, rotationPercentage) => {
     element.style.setProperty('--rotation', rotationPercentage * 360)
